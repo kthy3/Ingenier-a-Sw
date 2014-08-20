@@ -1,0 +1,15 @@
+package programa;  
+
+  
+public class Main {     
+    public static void main(String[] args) {  
+      Scanner sc=new Scanner(System.in);  
+      double a,b,suma;  
+      System.out.println("Ingresa numero");  
+      a=sc.nextDouble();  
+      System.out.println("Ingresa numero");  
+      b=sc.nextDouble();  
+      suma=a+b;  
+      System.out.println(suma);  
+    }  
+}  
